@@ -18,6 +18,6 @@ class Logger
     
     public function log($message, $level = self::LEVEL_INFO)
     {
-        echo "{$this->praefix}[{$level}] $message" . PHP_EOL;
+        echo ":{$this->praefix}[{$level}]: $message" . PHP_EOL;
     }
 }
